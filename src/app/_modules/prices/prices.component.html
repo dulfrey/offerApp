@@ -1,0 +1,14 @@
+
+
+<table style="width:100%">
+    <tr>
+      <th>Nombre Precio</th>
+      <th>Monto</th>
+    </tr>
+    <tr *ngFor="let price of prices; let i = index">
+      <td class="item-content">{{price.versions[0].name}}</td>
+      <td class="item-content">{{price.versions[0].price.amount}}</td>
+    
+    </tr>
+    
+  </table> 

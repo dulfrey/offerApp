@@ -1,0 +1,13 @@
+.item{
+    display: flex;
+    padding: 10px;
+}
+.item-content{
+    border: 1px red solid;
+    padding: 15px;
+    width: 150px;
+}
+.item-label{
+    width: 50px;
+    padding: 15px;
+}

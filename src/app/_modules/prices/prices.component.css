@@ -1,0 +1,8 @@
+.prices{
+    display: flex;
+}
+td.item-content{
+    border: 1px red solid;
+    padding: 15px;
+    width: 150px;
+}
